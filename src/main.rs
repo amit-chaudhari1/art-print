@@ -1,7 +1,6 @@
 const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 mod dithering;
 mod blueprint;
-mod resampling;
 
 use crate::dithering::FactorioColorMap;
 use crate::blueprint::{get_icons, fserialize, schema};
@@ -38,7 +37,7 @@ fn get_blueprint_simple(img: &RgbaImage, original: &RgbaImage, colors: &Factorio
 }
 
 fn main() {
-    let matches = App::new("Art-Print")
+    let matches = App::new("Factorio Printer")
         .version(VERSION)
         .about("Converts images to blueprints")
         .arg(
