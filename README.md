@@ -10,3 +10,8 @@ I want to update the mapping and make it so that player/users can create bluepri
 
 `cargo build` and run the binaries in target like `./target/debug/factorio-printer example.jpg`
 and it will generate the blueprint code in a text file within `./targe/debug/`
+
+## Screenshots
+![](screenshots/board.jpg)
+
+![](screenshots/unithold.jpg)
